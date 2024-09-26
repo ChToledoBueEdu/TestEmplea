@@ -1,0 +1,30 @@
+.visible {
+    display: inherit;
+}
+
+.oculto {
+    display: none;
+}
+
+.tarjetaDinamica {
+    height: auto;
+}
+
+.tarjetaDinamica > div {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: auto;
+    width: auto;
+}
+
+.contadorTarjeta {
+    font-size: larger;
+}
+
+#baseContDinamico {
+    padding: 1rem;
+    border: 1px solid #153244;
+    border-radius: 10px;
+}
