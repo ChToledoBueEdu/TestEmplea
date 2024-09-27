@@ -9,9 +9,15 @@ function cambiarEstiloSeleccion() {
                 let etiq = i.parentElement.parentElement;
                 // Limpio otras selecciones
                 etiq.childNodes.forEach(c => c.classList.remove('seleccionado'));
+                i.parentElement.classList.add('seleccionado');
+            } else if (i.type == "checkbox") {
+                if (i.parentElement.classList.contains('seleccionado')) {
+                    i.parentElement.classList.remove('seleccionado');
+                } else {
+                    i.parentElement.classList.add('seleccionado');
+                }
             }
 
-            i.parentElement.classList.add('seleccionado');
             ev.preventDefault();
         });
     });

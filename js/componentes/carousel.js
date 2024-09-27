@@ -13,6 +13,7 @@ function cambiarTarjeta(){
             actual.previousElementSibling.classList.add('visible');
             document.querySelector('#evaluar').classList.add('oculto');
         }         
+        scroll(5, 0);
     });
     
     let botonSig = document.querySelector('#siguiente');
@@ -29,6 +30,7 @@ function cambiarTarjeta(){
             document.querySelector('#evaluar').classList.remove('oculto');
             document.querySelector('#evaluar').classList.add('visible');
         }
+        scroll(5, 0);
     });
 }
 

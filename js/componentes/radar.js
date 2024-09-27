@@ -3,7 +3,8 @@ function crearRadar(etiquetas, valores) {
 
     let options = {
         chart: {
-            height: 500,
+            width: "100%",
+            height: 550,
             type: 'radar'
         },
         series: [
@@ -17,7 +18,7 @@ function crearRadar(etiquetas, valores) {
         },
         plotOptions: {
             radar: {
-                size: 250,
+                size: 230,
                 offsetX: 0,
                 offsetY: 50,
                 polygons: {

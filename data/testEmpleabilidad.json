@@ -795,7 +795,7 @@
         "Tipo": "Pregunta",
         "Texto": "¿Estás buscando un trabajo presencial o te gustaría trabajar desde tu casa? (Marque todas las opciones que considere correctas)",
         "Subcat": "",
-        "Valor": "radio"
+        "Valor": "checkbox"
     },
     {
         "Tipo": "Respuesta",

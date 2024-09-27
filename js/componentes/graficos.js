@@ -26,10 +26,12 @@ async function graficar(items, total) {
     
     for (let d of data1) {
         if (total <= Number(d["Puntaje"])) {
+            let div = document.createElement('div');
+            div.className = 'marco';
             let p = document.createElement('p');
-            p.className = 'marco';
             p.innerHTML = d["Texto"];
-            dev1.append(p);
+            div.append(p);
+            dev1.append(div);
             break;
         }
     }
