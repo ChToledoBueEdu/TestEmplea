@@ -58,7 +58,8 @@ async function graficar(items, total) {
     });
     
     let chart2 = new ApexCharts(
-        document.querySelector("#chart2"), 
+        // document.querySelector("#chart2"), 
+        document.querySelector("#responsive-chart"), 
         crearRadar(etiquetasRadar, valoresResItems)
     );
     chart2.render();  

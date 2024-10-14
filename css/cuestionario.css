@@ -26,8 +26,8 @@ input {
 }
 
 li.multiple {
-    margin-left: 3rem;
-    margin-right: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -49,9 +49,17 @@ select {
     height: 1.5rem;
 }
 
+#chart2 {
+    max-width: 700px;
+    margin: 1rem auto;
+}
 
-/* #chart1, #chart2 {
-    max-width: 760px;
-    margin: 1rem 1rem;
-    margin: 1rem 1rem;
-} */
+/* PUNTOS DE CORTE */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    li.multiple {
+        flex-direction: column;
+        margin: 1rem 0.5rem;
+    }
+}

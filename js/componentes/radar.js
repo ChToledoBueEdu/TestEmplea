@@ -36,7 +36,19 @@ function crearRadar(etiquetas, valores) {
                         colors: Array.from(etiquetas, (x) => '#153244')
                 }
             }
-        }
+        },
+        responsive: [
+            {
+                breakpoint: 600,
+                options: {
+                    plotOptions: {
+                        radar: {
+                            size: 150
+                        }
+                    },
+                }
+            }
+        ]
     }
 
     return options;

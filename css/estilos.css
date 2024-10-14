@@ -122,6 +122,10 @@ h2, section {
         display: block;
     }
 
+    h1 {
+        transform: scale(0.8);
+    }
+
     #contenido {
         font-size: larger;
     }
