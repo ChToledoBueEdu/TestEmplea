@@ -118,8 +118,12 @@ h2, section {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+
     #contenido {
-        font-size: x-large;
+        font-size: larger;
     }
 }
 
