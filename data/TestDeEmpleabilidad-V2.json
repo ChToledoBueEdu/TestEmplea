@@ -1417,6 +1417,72 @@
     },
     {
         "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Para pintar las paredes de una habitación de 4.2 m de largo, 3.5 m de ancho y 2.7 m de alto, que tiene una puerta de 2.1 m x 0.9 m y una ventana de 1.5 m x 1.8 m, se requieren 3 manos de pintura. La pintura A cubre 11 m² por litro y cuesta $15000 por litro, mientras que la pintura B cubre 16 m² por litro y cuesta $22000 por litro. ¿Cuál es la opción más económica?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Pintura A",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Pintura B",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ambas tienen el mismo costo",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Lee el siguiente texto y contestá: La inteligencia artificial podría llevar a la extinción de la humanidad, advirtió en un documento un grupo de expertos entre los que están los máximos responsables de OpenAI y Google Deepmind. \"Mitigar el riesgo de extinción a manos de la Inteligencia Artificial (IA) debería ser una prioridad mundial, junto con otros peligros a escala social, como las pandemias y la guerra nuclear\", se puede leer en una declaración publicada en la página de internet del Centro para la Seguridad de la IA.El Centro para la Seguridad de la IA sostiene que:",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala mundial, como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala mundial, mayores a los de una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala social, pero no tan graves como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA no son un peligro a escala mundial, pero son tan importantes como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
         "Texto": "Digitales",
         "subcat": "",
         "Valor": ""
@@ -1756,72 +1822,6 @@
         "Texto": "Twich",
         "subcat": "",
         "Valor": "4"
-    },
-    {
-        "Tipo": "Item",
-        "Texto": "Pensamiento matemático ",
-        "subcat": "",
-        "Valor": ""
-    },
-    {
-        "Tipo": "Pregunta",
-        "Texto": "Para pintar las paredes de una habitación de 4.2 m de largo, 3.5 m de ancho y 2.7 m de alto, que tiene una puerta de 2.1 m x 0.9 m y una ventana de 1.5 m x 1.8 m, se requieren 3 manos de pintura. La pintura A cubre 11 m² por litro y cuesta $15000 por litro, mientras que la pintura B cubre 16 m² por litro y cuesta $22000 por litro. ¿Cuál es la opción más económica?",
-        "subcat": "",
-        "Valor": "radio"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Pintura A",
-        "subcat": "",
-        "Valor": "50"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Pintura B",
-        "subcat": "",
-        "Valor": "0"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Ambas tienen el mismo costo",
-        "subcat": "",
-        "Valor": "0"
-    },
-    {
-        "Tipo": "Item",
-        "Texto": "Comprensión lectora",
-        "subcat": "",
-        "Valor": ""
-    },
-    {
-        "Tipo": "Pregunta",
-        "Texto": "Lee el siguiente texto y contestá: La inteligencia artificial podría llevar a la extinción de la humanidad, advirtió en un documento un grupo de expertos entre los que están los máximos responsables de OpenAI y Google Deepmind. \"Mitigar el riesgo de extinción a manos de la Inteligencia Artificial (IA) debería ser una prioridad mundial, junto con otros peligros a escala social, como las pandemias y la guerra nuclear\", se puede leer en una declaración publicada en la página de internet del Centro para la Seguridad de la IA.El Centro para la Seguridad de la IA sostiene que:",
-        "subcat": "",
-        "Valor": "radio"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Los riesgos de la IA son un peligro a escala mundial, como una guerra nuclear o una pandemia.",
-        "subcat": "",
-        "Valor": "50"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Los riesgos de la IA son un peligro a escala mundial, mayores a los de una guerra nuclear o una pandemia.",
-        "subcat": "",
-        "Valor": "0"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Los riesgos de la IA son un peligro a escala social, pero no tan graves como una guerra nuclear o una pandemia.",
-        "subcat": "",
-        "Valor": "0"
-    },
-    {
-        "Tipo": "Respuesta",
-        "Texto": "Los riesgos de la IA no son un peligro a escala mundial, pero son tan importantes como una guerra nuclear o una pandemia.",
-        "subcat": "",
-        "Valor": "0"
     },
     {
         "Tipo": "Item",

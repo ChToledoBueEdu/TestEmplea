@@ -82,12 +82,16 @@ async function graficar(items, total) {
         maxPuntajeItem.push(max);
     });
 
+    console.log(valoresResItems)
     // Escalado de valores para radar
     for (let i = 0; i < maxPuntajeItem.length; i++) {
         let aux = ((valoresResItems[i]/maxPuntajeItem[i]) * 10).toFixed(2);
         valoresResItems[i] = aux;
     }
     
+    console.log(etiquetasRadar)
+    console.log(maxPuntajeItem)
+    console.log(valoresResItems)
     let chart2 = new ApexCharts(
         document.querySelector("#responsive-chart"), 
         crearRadar(etiquetasRadar, valoresResItems)
