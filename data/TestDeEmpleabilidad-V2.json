@@ -1,0 +1,2288 @@
+[
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Te irías a vivir a otro lugar por trabajo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, a otra provincia o a otro país sin problemas",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, pero dentro del país únicamente",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo te adaptás a los cambios o situaciones nuevas en el entorno laboral?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me adapto fácilmente a los nuevos desafíos.",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me cuesta un poco, pero logro adaptarme con esfuerzo.",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta difícil enfrentar cambios o situaciones nuevas.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿En qué franjas horarias estarías dispuesto a trabajar? ",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "08 a 16 hs",
+        "subcat": "",
+        "Valor": "8"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "16 a 24 hs",
+        "subcat": "",
+        "Valor": "8"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "0 a 08 hs",
+        "subcat": "",
+        "Valor": "8"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Mirando las búsquedas de empleo que hay en internet, ¿sentís que calificás en algunas de ellas?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, en muchos de los empleos ofrecidos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, en algunos de los empleos ofrecidos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Solo en pocos de los empleos ofrecidos",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No, en ninguno",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Indicá en cuáles de estos aspectos te destacás: podés señalar más de una",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Puntualidad",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Respeto",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Prolijidad",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Responsabilidad",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Compromiso",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Solidaridad",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Humildad",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Empatía",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Autonomía",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Trabajar bajo presión",
+        "subcat": "",
+        "Valor": "2.5"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Considerás que sabés hacer algo extremadamente bien o sentís que sos experto en algo? ",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Soy bueno haciendo cosas en general, pero no soy experto en nada en particular",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No (Pasá a la pregunta 16)",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo sos cumpliendo horarios?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Llego 10 minutos antes a todos los compromisos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siempre intento ser puntual",
+        "subcat": "",
+        "Valor": "20"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Busco ser puntual pero dependo del tráfico y los medios de transporte",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me cuesta mucho cumplir horarios",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Qué cantidad de horas al día estarías dispuesto a trabajar?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Menos de 6",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Entre 7 y 8",
+        "subcat": "",
+        "Valor": "20"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Entre 10 y 12",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuando se habla de perfil laboral, ¿con qué definición lo vinculás?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Es un párrafo que cuenta nuestra historia y nos sirve como presentación para enviar a un empleador/reclutador. No es necesario que la revise si inicio una nueva búsqueda.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Es una construcción personal que podés realizar cuando inicias una búsqueda de empleo.Incluye  experiencias, conocimientos y  elementos  tales como habilidades e intereses.  Es personal,  dinámica y te puede ayudar a definir tus áreas de mayor interés.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Es un listado de información que junta  tu experiencia laboral y de estudios formales  y volcás directamente dentro de tu CV",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Es una construcción personal que podés realizar a la hora de buscar empleo. Solo me conviene  utilizarla si no cuento con experiencia para el armado del CV.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Tenés que contarle a alguien una idea que tuviste para un nuevo proyecto y querés convencerlo/a que tu idea es buena, ¿cuál de las siguientes opciones se acerca más a lo que harías?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hablás rápidamente para decir toda la información sin interrupciones así no te olvidás de nada.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Utilizás términos técnicos y especializados para demostrar tu conocimiento del tema",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A medida que vas contando la idea, chequeás si la otra persona está entendiendo lo que le estás diciendo.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Crees que es importante llamar la atención de quien te está escuchando y para eso, intercalás en el relato chistes y anécdotas.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo te sentís al enfrentarte a una entrevista de trabajo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me siento preparado y confiado en entrevistas laborales",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A veces me pongo nervioso pero puedo manejar las entrevistas con cierta confianza",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Las entrevistas me generan mucha ansiedad y no me siento seguro en ellas",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Blandas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo prefieres relacionarte con los demás?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Prefiero relacionarme con personas de mi entorno cercano. ",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me gusta interactuar con personas de diferentes edades y contextos. ",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No me gusta demasiado relacionarme con los demás",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Sabes manejar un vehículo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, pero no tengo registro de conductor",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, tengo registro de conductor",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No, no sé manejar",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Hay personas que sepan que vos sabés hacer eso?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, hay muchas personas que lo saber",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, algunas personas que lo saben",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, pero pocas personas lo saben",
+        "subcat": "",
+        "Valor": "1"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Nadie lo sabe",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Indicá si manejas alguno/s de estos idiomas y el nivel que tenés al respecto ",
+        "subcat": "",
+        "Valor": "select"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ingles",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ingles",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ingles",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ingles",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Italiano",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Italiano",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Italiano",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Italiano",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Portugués",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Portugués",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Portugués",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Portugués",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Francés",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Francés",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Francés",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Francés",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Chino",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Chino",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Chino",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Chino",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Alemán",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Alemán",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Alemán",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Alemán",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Holandés",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Holandés",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Holandés",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Holandés",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hebreo",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hebreo",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hebreo",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hebreo",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Guaraní",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Guaraní",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Guaraní",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Guaraní",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quechua",
+        "subcat": "Principiante",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quechua",
+        "subcat": "Intermedio",
+        "Valor": "7"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quechua",
+        "subcat": "Avanzado",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quechua",
+        "subcat": "Bilingüe",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo hiciste tu Curriculum Vitae -CV-?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Lo hice yo con mi propio criterio",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tomé un modelo de internet",
+        "subcat": "",
+        "Valor": "20"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hice una capacitación sobre cómo hacer un Curriculum Vitae",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No tengo Curriculum Vitae",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No se qué es un Curriculum Vitae",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo fue tu experiencia académica? ",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No terminé la primaria",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Terminé la primaria",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No terminé la secundaria",
+        "subcat": "",
+        "Valor": "15"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Terminé la secundaria",
+        "subcat": "",
+        "Valor": "20"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Empecé un terciario pero no lo terminé",
+        "subcat": "",
+        "Valor": "30"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Terminé un terciario",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Empecé la universidad pero no la terminé",
+        "subcat": "",
+        "Valor": "40"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Terminé la universidad",
+        "subcat": "",
+        "Valor": "100"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Obtuviste algún título o certificación de otros estudios que hayas realizado? ",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, uno",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, más de uno",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Con cuál de estas familias profesionales está más relacionado el título alcanzado? (si es mas de uno marcar el mas importante)",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Economía y administración",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Turismo y gastronomía",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ingeniería e informática",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Arquitectura y diseño",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Agropecuaria y medio ambiente",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Salud",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sociales",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Deportes",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Seguridad y defensa",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Exactas y naturales",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Jurídica",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Arte",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No realicé estudios superiores",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo describirías tu capacidad para gestionar el tiempo en el trabajo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Organizo y gestiono bien mi tiempo para cumplir con mis tareas.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A veces me cuesta cumplir con los plazos.",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta muy difícil gestionar mi tiempo de manera eficiente.",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo describirías tu habilidad para comunicarte en el ámbito laboral?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me comunico de manera clara y efectiva en el trabajo.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A veces me cuesta transmitir mis ideas eficazmente.",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siento que no manejo bien la comunicación en entornos laborales. ",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Tenés diagnosticada alguna discapacidad?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, algo leve que me permite realizar la mayoría de las tareas",
+        "subcat": "",
+        "Valor": "40"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, algo que me restringe para realizar un tipo de tareas específicas",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, sólo me permite realizar algunas tareas en particular",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Estás considerando estudiar o seguir estudiando una carrera o curso?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, tengo varias opciones en mente y no sé cuál elegir.",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, pero no estoy seguro de qué carrera o curso se alinea con mis intereses.",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si, ya tengo clara la decisión sobre lo que quiero estudiar.",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Considero que estoy suficientemente capacitado.",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No estoy pensando en estudiar en este momento.",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Técnicas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Te han ofrecido un crédito personal con una TNA atractiva, pero el CFT es considerablemente alto debido a costos asociados. ¿Cómo evaluarías si aceptar este crédito es la mejor opción para vos?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Considerarías solo la TNA, ya que es el indicador más visible.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Analizarías cómo el CFT afecta el costo total del crédito en relación a tus ingresos y objetivos financieros.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tomarías el crédito para cubrir una necesidad inmediata, sin preocuparte por los costos adicionales.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Rechazarías el crédito porque los costos adicionales son siempre negativos.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Qué tanto conocés y manejás el tema de inversiones?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tengo experiencia invirtiendo y conozco las diferentes opciones de inversión",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Conozco algunas opciones de inversión, pero no tengo experiencia práctica. ",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No tengo conocimientos sobre inversiones.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo gestionás el endeudamiento en tu vida personal?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Soy responsable con las deudas y gestiono bien mis compromisos financieros",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A veces tomo decisiones de endeudamiento sin considerar todas las consecuencias",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "En casos de necesidad no contemplo las consecuencias  del endeudamiento",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me cuesta gestionar mis deudas de manera adecuada",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo describirías tu habilidad para comprender textos en el entorno laboral?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Comprendo fácilmente textos largos y complejos",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Suelo entender la mayoría de los textos pero me cuestan los textos más complejos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta difícil comprender textos largos",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta difícil comprender el lenguaje técnico",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Prefiero recibir la información de manera verbal o visual ya que me cuesta entender los textos escritos",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Seleccioná todo lo que se ajuste a tus gustos",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hablar en público",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hablar de persona a persona",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Leer",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Escribir",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Analizar textos y situaciones",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hacer cálculos y cuentas",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Aprender",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Enseñar",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Invertir",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Cooperar",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Compartir",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Competir",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Administrar",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Organizar",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Planificar",
+        "subcat": "",
+        "Valor": "3.33"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo gestionás tus ingresos y gastos?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Planifico y sigo un presupuesto para controlar mis ingresos y gastos",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A veces hago un presupuesto, pero no siempre lo sigo",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No suelo hacer presupuestos para gestionar mi dinero",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Cognitivas",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo te desempeñás al enfrentar situaciones que requieren habilidades matemáticas en el trabajo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me siento muy cómodo resolviendo problemas que involucran cálculos, análisis numéricos o datos",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Puedo resolver cálculos básicos pero a veces necesito apoyo con problemas más complejos.",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta difícil realizar cálculos o interpretar datos numéricos en el trabajo.",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Evito tareas que involucren matemáticas o cálculos siempre que es posible.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo te relacionas con la tecnología?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me encanta, siempre trato de estar innovando",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Bien, nivel usuario pero no soy un experto",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Más o menos, lo justo y necesario",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No me llevo bien con la tecnología, la evito siempre que puedo.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuáles de estos dispositivos manejás?",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Celular",
+        "subcat": "",
+        "Valor": "16.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Computadora",
+        "subcat": "",
+        "Valor": "16.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tablet",
+        "subcat": "",
+        "Valor": "16.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ninguno",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Considerás que tenés los conocimientos y habilidades suficientes para manejar los programas informáticos requeridos en el tipo de trabajo que estás buscando?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, sé manejar todos los programas que piden en los trabajos que busco",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sí, pero sólo tengo conocimientos básicos de ellos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Sólo conozco algunos de ellos y no los sé manejar bien",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No tengo ninguna habilidad digital.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Qué tipo de uso le das a las redes sociales?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Recreativo",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Laboral",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ambas",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No uso redes sociales",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo calificarías tus habilidades respecto de los siguientes programas, aplicaciones y/o plataformas?",
+        "subcat": "",
+        "Valor": "select"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Procesadores de texto y planillas de cálculo (word, excel, power point) ",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Procesadores de texto y planillas de cálculo (word, excel, power point) ",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Procesadores de texto y planillas de cálculo (word, excel, power point) ",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Navegadores: (Google/Yahoo/Explorer)",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Navegadores: (Google/Yahoo/Explorer)",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Navegadores: (Google/Yahoo/Explorer)",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Plataforma de videoconferencia: ZOOM/MEET/TEAMS",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Plataforma de videoconferencia: ZOOM/MEET/TEAMS",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Plataforma de videoconferencia: ZOOM/MEET/TEAMS",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Correo electrónico",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Correo electrónico",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Correo electrónico",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Agenda y calendario electrónico",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Agenda y calendario electrónico",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Agenda y calendario electrónico",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Mensajería instantánea (Whatsapp, Telegram) ",
+        "subcat": "Principiante",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Mensajería instantánea (Whatsapp, Telegram) ",
+        "subcat": "Intermedio",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Mensajería instantánea (Whatsapp, Telegram) ",
+        "subcat": "Avanzado",
+        "Valor": "8.5"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Digitales",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuál de estas redes sociales utilizas habitualmente?",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Facebook",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Instagram",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tik Tok",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Snapchat",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Whatsapp",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Telegram",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "LinkedIn",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "X (Twitter)",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Youtube",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Pinterest",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Twich",
+        "subcat": "",
+        "Valor": "4"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Pensamiento matemático ",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Para pintar las paredes de una habitación de 4.2 m de largo, 3.5 m de ancho y 2.7 m de alto, que tiene una puerta de 2.1 m x 0.9 m y una ventana de 1.5 m x 1.8 m, se requieren 3 manos de pintura. La pintura A cubre 11 m² por litro y cuesta $15000 por litro, mientras que la pintura B cubre 16 m² por litro y cuesta $22000 por litro. ¿Cuál es la opción más económica?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Pintura A",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Pintura B",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ambas tienen el mismo costo",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Comprensión lectora",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Lee el siguiente texto y contestá: La inteligencia artificial podría llevar a la extinción de la humanidad, advirtió en un documento un grupo de expertos entre los que están los máximos responsables de OpenAI y Google Deepmind. \"Mitigar el riesgo de extinción a manos de la Inteligencia Artificial (IA) debería ser una prioridad mundial, junto con otros peligros a escala social, como las pandemias y la guerra nuclear\", se puede leer en una declaración publicada en la página de internet del Centro para la Seguridad de la IA.El Centro para la Seguridad de la IA sostiene que:",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala mundial, como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala mundial, mayores a los de una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA son un peligro a escala social, pero no tan graves como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Los riesgos de la IA no son un peligro a escala mundial, pero son tan importantes como una guerra nuclear o una pandemia.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuántos de tus empleadores pensás que pueden hablar bien de vos?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Todos los que tuve",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Algunos de ellos",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ninguno",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo te desenvolvés al trabajar en equipo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me desempeño bien trabajando en equipo y lo disfruto. ",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Prefiero trabajar solo, pero colaboro con el equipo cuando es necesario.",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Me resulta difícil trabajar en equipo",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿ Cada cuanto revisás tu correo electrónico?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Todos los días",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Una vez por semana",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Una vez por mes",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Rara vez",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Nunca",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cómo describirías tu hábito de ahorro?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ahorro regularmente y tengo un plan para alcanzar mis objetivos financieros.",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ahorro de vez en cuando, pero no tengo un plan definido",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No tengo el hábito de ahorrar",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Estás trabajando actualmente?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿En general tus trabajos anteriores fueron formales (en blanco) o informales (en negro)?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siempre o casi siempre formales",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siempre o casi siempre en negro",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "De las dos maneras por igual",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuál es el estilo con el que te presentas en público?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siempre mantengo mi estilo personal, sin importar el ambiente",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": " Me adapto al estilo que considero más adecuado para cada situación",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Solo hago ajustes cuando es estrictamente necesario",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Te alimentas saludablemente?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Siempre",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "A menudo",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Casi nunca",
+        "subcat": "",
+        "Valor": "5"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Nunca",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Estás buscando trabajo actualmente?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Tenés familiares a cargo?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Si",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Estás buscando un trabajo presencial o te gustaría trabajar desde tu casa?  (Marque todas las opciones que considere correctas)",
+        "subcat": "",
+        "Valor": "checkbox"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Presencial",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Remoto (home office)",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Hibrido (mixto)",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "N/A",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuántos años de experiencia laboral tenés?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Más de 2 años",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Menos de 2 años",
+        "subcat": "",
+        "Valor": "30"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "No tengo experiencia",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Experiencia laboral",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Qué tipo de empleo considerás adecuado en este momento?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Busco un trabajo se alinee con mi perfil profesional y mis habilidades.",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Estoy interesado en un empleo que refleje mis preferencias e intereses personales.",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Estoy abierto a cualquier tipo de trabajo que se me presente, sin preferencias específicas.",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Actualmente, no estoy en la búsqueda activa de empleo.",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Experiencia laboral",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "Elegí una de las siguientes frases",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quiero conseguir un trabajo pero no tengo habilidades específicas",
+        "subcat": "",
+        "Valor": "10"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Quisiera aprender a hacer algo para conseguir un trabajo",
+        "subcat": "",
+        "Valor": "20"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tengo muchos conocimientos pero no consigo un trabajo",
+        "subcat": "",
+        "Valor": "30"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tengo trabajo pero me gustaría conseguir uno mejor",
+        "subcat": "",
+        "Valor": "50"
+    },
+    {
+        "Tipo": "Item",
+        "Texto": "Experiencia laboral",
+        "subcat": "",
+        "Valor": ""
+    },
+    {
+        "Tipo": "Pregunta",
+        "Texto": "¿Cuántos trabajos tuviste hasta ahora?",
+        "subcat": "",
+        "Valor": "radio"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Ninguno",
+        "subcat": "",
+        "Valor": "0"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Dos",
+        "subcat": "",
+        "Valor": "25"
+    },
+    {
+        "Tipo": "Respuesta",
+        "Texto": "Tres o más",
+        "subcat": "",
+        "Valor": "50"
+    }
+]

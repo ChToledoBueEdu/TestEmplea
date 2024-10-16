@@ -3,7 +3,7 @@ import { cambiarTarjeta } from "./componentes/carousel.js"
 import { cambiarEstiloSeleccion } from "./componentes/checkItem.js";
 
 // Ruta del cuestionario
-const rutaCuestionario = './data/testEmpleabilidad.json';
+const rutaCuestionario = './data/TestDeEmpleabilidad-V2.json';
 
 window.addEventListener("DOMContentLoaded", evento => {
     cargarDatos(rutaCuestionario);

@@ -41,7 +41,7 @@ function evaluarCuestionario() {
         if (!Number.isNaN(Number(resultados[e]))) sumaTotal += Number(resultados[e]);
     });
     
-    graficar(resultados, sumaTotal)
+    graficar(resultados, sumaTotal);
 }
 
 export { evaluarCuestionario }

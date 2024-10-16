@@ -4,7 +4,7 @@ function crearRadar(etiquetas, valores) {
     let options = {
         chart: {
             width: "100%",
-            height: 550,
+            height: 700,
             type: 'radar'
         },
         series: [
@@ -13,18 +13,21 @@ function crearRadar(etiquetas, valores) {
             },
         ],
         yaxis: {
-                max: 600,
-                stepSize: 50,
+                max: 10,
+                stepSize: 2,
         },
         plotOptions: {
             radar: {
-                size: 230,
+                size: 250,
                 offsetX: 0,
-                offsetY: 50,
+                offsetY: 0,
                 polygons: {
                     strokeColors: '#e8e8e8',
                     strokeWidth: 1,
                     connectorColors: '#e8e8e8',
+                    fill: {
+                        colors: ['#f8f8f8', '#fff']
+                    }
                 }
             }
         },
@@ -41,9 +44,12 @@ function crearRadar(etiquetas, valores) {
             {
                 breakpoint: 600,
                 options: {
+                    chart: {
+                        height: 350
+                    },
                     plotOptions: {
                         radar: {
-                            size: 150
+                            size: 100
                         }
                     },
                 }
