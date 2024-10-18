@@ -2,8 +2,8 @@ async function startScanner() {
     // Inicializar el lector de códigos de barras
     const codeReader = new ZXing.BrowserMultiFormatReader();
     const videoElement = document.getElementById('video');
-    // const resultElement = document.getElementById('result');
-    let resultElement;
+    const resultElement = document.getElementById('result');
+    // let resultElement;
 
     try {
         // Obtener los dispositivos de video disponibles
@@ -24,19 +24,21 @@ async function startScanner() {
         // Iniciar el escaneo de video usando la cámara seleccionada
         codeReader.decodeFromVideoDevice(selectedDeviceId, videoElement, (result, err) => {
             if (result) {
-                resultElement = result.text;
-                codeReader.reset();
+                resultElement.textContent = `Código escaneado: ${result.text}`;
+                // resultElement = result.text;
                 // Detener el escaneo después de un escaneo exitoso
+                codeReader.reset();
             }
 
             if (err && !(err instanceof ZXing.NotFoundException)) {
                 console.error(`Error de escaneo: ${err}`);
-                resultElement = null;;
+                // resultElement = null;
             }
         });
     } catch (err) {
         console.error(`Error al acceder a la cámara: ${err}`);
-        resultElement = null;
+        // resultElement = null;
+        resultElement.textContent = 'No se pudo acceder a la cámara. Asegúrate de que el navegador tiene permisos.';
     }
 
     return resultElement;
