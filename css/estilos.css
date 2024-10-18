@@ -58,12 +58,11 @@ body {
     width: 40%;
 }
 
-h2, section {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+h2, h3, section {
+    margin: 1rem 0;
 }
 
-section > p {
+h2 + p, h3 + p {
     margin: 1rem 0;
 }
 

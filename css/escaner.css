@@ -6,9 +6,8 @@
 }
 
 video {
+    margin: 2rem 0;
     border: 3px solid #153244;
     border-radius: 5px;
-    width: 400px;
-    /* min-width: 400px; */
     height: 200px;
 }

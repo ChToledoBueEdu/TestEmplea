@@ -17,6 +17,8 @@ function obtener(documento) {
 
     if (documento) {
         let datos = documento.split('@');
+        document.querySelector('#preparar').classList.remove('oculto');
+        mostrarIdentidad(datos[2]);
         encriptar.encryptDocument(datos[4])
                 .then(encrypted => {validar(encrypted)});
     } else {
@@ -29,7 +31,7 @@ function mostrarIdentidad(nombre) {
     
     if (nombre) {
         resultado.innerHTML = `¡Hola ${nombre}!`;
-        document.querySelector('#confirmarId').classList.remove('oculto');
+        // document.querySelector('#confirmarId').classList.remove('oculto');
     } else {
         resultado.innerHTML = 'No se pudo acceder a la cámara. Asegúrate de que el navegador tiene permisos.'
     }

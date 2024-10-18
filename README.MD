@@ -1,5 +1,5 @@
 # Test de Empleabilidad - Programa Construí tu futuro
 
-Vista de actividad:
+Despliegue de la actividad:
 
 - [Test de Empleabilidad](https://eduadistancia.github.io/TestEmpleabilidad)
