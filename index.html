@@ -6,9 +6,11 @@
     <meta name="author" content="Area Educación a Distacia - Min. de Educación GCABA">
     <meta name="description" content="Material didáctico adicional.">
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+    <script src="https://unpkg.com/@zxing/library@0.18.6/umd/index.min.js"></script>
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/cuestionario.css">
     <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/escaner.css">
     <title>Test de Empleabilidad</title>
 </head>
 <body id="captura" class="colorFondo2">
@@ -28,25 +30,8 @@
                 </div>
 
             </header>
-            <main>
-                <section>
-                    <h2>Actividad: Cuestionario</h2>
-                    <form>
-                        <div id="contenidoDinamico">
-    
-                        </div>
-                        
-                        <div id="botonera">
-                            <input id="evaluar" class="boton colorFondo1 oculto" type="submit" value="Evaluar">
-                        </div>
-                    </form>
-
-                    <div id="botonera">
-                        <button id="anterior" class="boton colorFondo1"><< Anterior</button>
-                        <button id="siguiente" class="boton colorFondo1">Siguiente >></button>
-                    </div>
-
-                </section>
+            <main id="contenidoSPA">
+                <!-- Contenido del documento -->
             </main>
         </div>
     </div>

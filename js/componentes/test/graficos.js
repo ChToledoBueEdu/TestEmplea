@@ -1,4 +1,4 @@
-import { descargar } from "./captura.js";
+import { descargar } from "../captura.js";
 import { crearDona } from "./dona.js";
 import { crearRadar } from "./radar.js";
 
