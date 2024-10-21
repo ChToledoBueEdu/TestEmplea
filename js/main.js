@@ -8,7 +8,8 @@ const rutaCuestionario = './data/TestDeEmpleabilidad-V2.json';
 
 // Sitio (SPA)
 const sitio = {
-    inicio: './site/registro.html',
+    inicio: './site/inicio.html',
+    registro: './site/registro.html',
     test: './site/test.html'
 }
 
@@ -20,11 +21,19 @@ function cambiarPagina(docuHTML) {
         .then(datos => contSPA.innerHTML = datos);
 }
 
-// Inicio: Registro
+// Inicio 
 window.addEventListener("DOMContentLoaded", function () {
     cambiarPagina(sitio.inicio);
-    setTimeout(registro, 300);
+    // Registro
+    this.setTimeout(()=>{
+        let continuar = document.querySelector('#continuar');
+        continuar.addEventListener('click', function () {
+            cambiarPagina(sitio.registro);
+            setTimeout(registro, 300);
+        });
+    }, 200);
 });
+
 
 // Siguiente: Test
 function test() {

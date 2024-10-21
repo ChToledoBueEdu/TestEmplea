@@ -40,6 +40,8 @@ function mostrarIdentidad(nombre) {
 function registro() {
     let botonEscanear = document.querySelector('#escanear');
     botonEscanear.addEventListener('click', async () => {
+        document.querySelector('.imgRegistrar').classList.add('oculto');
+        document.querySelector('.imgRegistrar').classList.remove('imgRegistrar');
         let escaner = document.querySelector('#escaner');
         escaner.classList.remove('oculto');
         let botonEscanear = document.querySelector('#escanear');

@@ -22,8 +22,8 @@ body {
 }
 
 #contenido {
-    padding: 2%;
-    margin: 1%;
+    padding: 0 2%;
+    margin: 0 1%;
 }
 
 /* MEMBRETE */
@@ -43,8 +43,7 @@ body {
 #contenido > header, 
 #contenido > main, 
 #contenido > footer {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 0.5rem 0;
 }
 
 .divHeader {
