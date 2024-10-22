@@ -1,15 +1,58 @@
 import { startScanner } from "./escanerQR.js";
-import { test } from "../../main.js";
+import { realizarTest } from "../../main.js";
 import { encriptar } from "./encriptado.js";
+import { tokenizar } from "./conexion/apiToken.js";
+import { consultar } from "./conexion/conectar.js";
+import { crear } from "./conexion/conectar.js";
 
-function validar(id_dcript) {
-    console.log(id_dcript);
-    // Enviar consulta al back, 
-    // si nunca lo hizo => habilitar test
-    // si lo hizo => ¿pasaron 6 meses? SI => habilitar test
+
+
+async function validar(datosDocumento) {
+    let documento = datosDocumento[4];
+    let id_dcript = await encriptar.encryptDocument(documento)
+                        .then(encrypted => encrypted);
+    let token = await tokenizar();
+    let urlPersona = 'http://127.0.0.1:8000/personas/';
+    let urlTest = 'http://127.0.0.1:8000/test/';
+
+    // Enviar consulta al back: 
+    // 1- si no existe => crear Persona
+    // 2- si nunca lo hizo => habilitar test
+    // 3- si lo hizo => ¿pasaron 6 meses? SI => habilitar test
     //                                 NO => mostrar resultados
-}
 
+    let persona = await consultar(token.access, urlPersona, id_dcript);
+
+    if (persona != null && !Number.isInteger(persona)) {
+        let test = consultar(token.access, urlTest, id_dcript);
+
+        if (test != null && !Number.isInteger(test)) {
+            console.log('Ya hizo el test!!!');
+            // Armar resultados con datos anteriores
+        } else {
+            document.querySelector('#confirmarId').classList.remove('oculto');
+            let botonConfirmar = document.querySelector('#confirmarId');
+            botonConfirmar.addEventListener('click', ev => realizarTest());
+        }
+
+    } else {
+        let data = {
+            "id_dcript": id_dcript,
+            "fecha_nac": datosDocumento[6],
+            "genero": datosDocumento[3]
+        }
+        let nvaPersona = crear(token.access, urlPersona, data);
+
+        if (nvaPersona) {
+            document.querySelector('#confirmarId').classList.remove('oculto');
+            let botonConfirmar = document.querySelector('#confirmarId');
+            botonConfirmar.addEventListener('click', ev => realizarTest());
+        } else {
+            let rechazo = 'No se pudo validar tu documento.'
+            document.querySelector('#queryResult').innerHTML = rechazo;
+        }
+    }
+}
 
 function obtener(documento) {
     // Formato documento de identidad
@@ -19,8 +62,7 @@ function obtener(documento) {
         let datos = documento.split('@');
         document.querySelector('#preparar').classList.remove('oculto');
         mostrarIdentidad(datos[2]);
-        encriptar.encryptDocument(datos[4])
-                .then(encrypted => {validar(encrypted)});
+        validar(datos);
     } else {
         mostrarIdentidad(null);
     }
@@ -31,7 +73,6 @@ function mostrarIdentidad(nombre) {
     
     if (nombre) {
         resultado.innerHTML = `¡Hola ${nombre}!`;
-        // document.querySelector('#confirmarId').classList.remove('oculto');
     } else {
         resultado.innerHTML = 'No se pudo acceder a la cámara. Asegúrate de que el navegador tiene permisos.'
     }
@@ -48,9 +89,6 @@ function registro() {
         botonEscanear.classList.add('oculto'); 
         startScanner(); // luego del escaneo llama a obtener
     });
-    
-    let botonConfirmar = document.querySelector('#confirmarId');
-    botonConfirmar.addEventListener('click', test);
 }
 
 export { obtener }

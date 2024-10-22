@@ -36,11 +36,11 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 // Siguiente: Test
-function test() {
+function realizarTest() {
     cambiarPagina(sitio.test);
     setTimeout(cargarDatos, 300, rutaCuestionario);
     setTimeout(cambiarTarjeta, 300);
     setTimeout(cambiarEstiloSeleccion, 300);
 }
 
-export { test }
+export { realizarTest }
