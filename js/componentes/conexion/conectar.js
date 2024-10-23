@@ -21,7 +21,7 @@ async function crear(token, url, datos) {
         },
         body: JSON.stringify(datos)
     };
-
+    console.log(options);
     let crear = await fetch(url, options)
                         .then(res => res.status === 200 ? true : null)
                         .catch(err => err.status);

@@ -40,7 +40,7 @@ function realizarTest() {
     cambiarPagina(sitio.test);
     setTimeout(cargarDatos, 300, rutaCuestionario);
     setTimeout(cambiarTarjeta, 300);
-    setTimeout(cambiarEstiloSeleccion, 300);
+    setTimeout(cambiarEstiloSeleccion, 500);
 }
 
 export { realizarTest }

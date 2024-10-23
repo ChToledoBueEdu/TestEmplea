@@ -36,12 +36,9 @@ function evaluarCuestionario() {
         }
     });
     
-    let sumaTotal = 0;
-    Object.keys(resultados).forEach(e => {
-        if (!Number.isNaN(Number(resultados[e]))) sumaTotal += Number(resultados[e]);
-    });
+  
     
-    graficar(resultados, sumaTotal);
+    graficar(resultados, true);
 }
 
 export { evaluarCuestionario }

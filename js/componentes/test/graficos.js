@@ -1,8 +1,28 @@
 import { descargar } from "../captura.js";
 import { crearDona } from "./dona.js";
 import { crearRadar } from "./radar.js";
+import { crear } from "../conexion/conectar.js"
+import { quitarAcentosEnClaves } from "../auxiliar/letras.js";
 
-async function graficar(items, total) {
+async function graficar(items, crearTest) {
+
+    // Correción de claves
+    if (!crearTest) {
+
+        for (let d in items) {
+            let aux = d.charAt(0).toUpperCase() + d.slice(1);
+            items[aux] = items[d];
+            delete items[d];
+        }
+        
+        for (let d in items) {
+            if (d === 'Tecnicas') {
+                items['Técnicas'] = items[d];
+                delete items[d]
+            }
+        }
+    }
+
     // Cambio de contenido en página
     let principal = document.querySelector('.contPpal');
     let docuHTML = await fetch("./site/resultado.html")
@@ -10,6 +30,12 @@ async function graficar(items, total) {
     principal.innerHTML = docuHTML;
 
     // Empleabilidad
+    // Cálculo del total
+    let sumaTotal = 0;
+    Object.keys(items).forEach(e => {
+        if (!Number.isNaN(Number(items[e]))) sumaTotal += Number(items[e]);
+    });
+
     let data1 = await fetch("./data/puntajeTotal.json")
                             .then(respuesta => respuesta.json());
     let maxPuntaje = 0;
@@ -19,13 +45,13 @@ async function graficar(items, total) {
   
     let chart1 = new ApexCharts(
         document.querySelector("#chart1"), 
-        crearDona(total, maxPuntaje, 'Empleabilidad')
+        crearDona(sumaTotal, maxPuntaje, 'Empleabilidad')
     );
     chart1.render();  
     let dev1 = document.querySelector('#salida1');
     
     for (let d of data1) {
-        if (total <= Number(d["puntaje"])) {
+        if (sumaTotal <= Number(d["puntaje"])) {
             let div = document.createElement('div');
             div.className = 'marco';
             let p = document.createElement('p');
@@ -39,15 +65,28 @@ async function graficar(items, total) {
     // Aspecto evaluados
     let data2 = await fetch("./data/empleabilidadPorItem.json")
                             .then(respuesta => respuesta.json());
-    
-    // console.log(data2)
     let etiquetasRadar = [];
-    
     data2.forEach(d => {
         if (!etiquetasRadar.includes(d["Tipo"])) {
             etiquetasRadar.push(d["Tipo"]);
         };
     });
+
+    // Si es la primera vez que lo realiza
+    if (crearTest) {
+
+        // Modificación para campo "otras"
+        let otras = 0;
+        Object.keys(items).forEach(e => {
+            if (!(etiquetasRadar.includes(e)) && !Number.isNaN(Number(resultados[e]))) {
+                otras += Number(items[e]);
+                delete items[e];
+            }
+        });
+        items.otras = otras;
+    } else {
+
+    }
 
     etiquetasRadar.forEach(e => {
         if (!(Object.keys(items).includes(e))) {
@@ -82,16 +121,12 @@ async function graficar(items, total) {
         maxPuntajeItem.push(max);
     });
 
-    console.log(valoresResItems)
     // Escalado de valores para radar
     for (let i = 0; i < maxPuntajeItem.length; i++) {
         let aux = ((valoresResItems[i]/maxPuntajeItem[i]) * 10).toFixed(2);
         valoresResItems[i] = aux;
     }
     
-    console.log(etiquetasRadar)
-    console.log(maxPuntajeItem)
-    console.log(valoresResItems)
     let chart2 = new ApexCharts(
         document.querySelector("#responsive-chart"), 
         crearRadar(etiquetasRadar, valoresResItems)
@@ -109,6 +144,27 @@ async function graficar(items, total) {
         div.append(item, p);
         dev2.append(div);
     });
+
+    if (crearTest) {
+        // Envío al back
+        let tk = sessionStorage.getItem('tk');
+        let id_dcript = sessionStorage.getItem('id_dcript');
+        let hoy = new Date();
+        let fecha_test = `${hoy.getFullYear()}-${hoy.getMonth()+1}-${hoy.getDate()}`;
+        let origRes = quitarAcentosEnClaves(items);
+        
+        let envio = {}
+        envio.id_dcript = id_dcript;
+        envio.fecha_test = fecha_test;
+        
+        for (let clave in origRes) {
+            let conversion = clave.toLowerCase();
+            envio[conversion] = origRes[clave];
+        }
+
+        let urlTest = 'http://127.0.0.1:8000/test/';
+        crear(tk, urlTest, envio);
+    }
 
     // Descarga de resultados
     let capturar = document.getElementById('descarga');
