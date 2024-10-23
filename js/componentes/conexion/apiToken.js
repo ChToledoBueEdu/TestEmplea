@@ -9,7 +9,7 @@ async function tokenizar() {
         },
         body: JSON.stringify(auth)
     }
-    let url = 'http://127.0.0.1:8000/api/token/';
+    let url = 'https://chtolecac.pythonanywhere.com/api/token/';
     let tokenBack = await fetch(url, options)
                             .then(res => res.json())
                             .catch(err => null);
