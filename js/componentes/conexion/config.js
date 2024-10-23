@@ -1,6 +1,6 @@
 const apiConfig = {
-    user: "eadTest",
-    pass: "#empleo!2024"
+    user: ${{ secrets.CON_BACK.user }},
+    pass: ${{ secrets.CON_BACK.pass }}
 }
 
 export { apiConfig }
