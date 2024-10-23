@@ -162,6 +162,7 @@ async function graficar(items, crearTest) {
             envio[conversion] = origRes[clave];
         }
 
+        // let urlTest = 'https://chtolecac.pythonanywhere.com/test/';
         let urlTest = 'http://127.0.0.1:8000/test/';
         crear(tk, urlTest, envio);
     }

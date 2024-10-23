@@ -20,8 +20,10 @@ async function validar(datosDocumento) {
     let id_dcript = await encriptar.encryptDocument(documento)
                         .then(encrypted => encrypted);
     let token = await tokenizar();
-    let urlPersona = 'https://chtolecac.pythonanywhere.com/personas/';
-    let urlTest = 'https://chtolecac.pythonanywhere.com/test/';
+    // let urlPersona = 'https://chtolecac.pythonanywhere.com/personas/';
+    // let urlTest = 'https://chtolecac.pythonanywhere.com/test/';
+    let urlPersona = 'http://127.0.0.1:8000/personas/';
+    let urlTest = 'http://127.0.0.1:8000/test/';
 
     // Enviar consulta al back: 
     // 1- si no existe => crear Persona
