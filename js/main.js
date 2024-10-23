@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", function () {
             cambiarPagina(sitio.registro);
             setTimeout(registro, 300);
         });
-    }, 200);
+    }, 500);
 });
 
 
