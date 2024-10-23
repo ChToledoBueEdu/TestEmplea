@@ -34,7 +34,6 @@ async function validar(datosDocumento) {
 
     if (persona != null && !Number.isInteger(persona)) {
         let test = await consultar(token.access, urlTest, id_dcript);
-        console.log(test);
         sessionStorage.setItem('tk', token.access);
         sessionStorage.setItem('id_dcript', id_dcript);
 
